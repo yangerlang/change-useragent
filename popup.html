@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>change user agent</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			width: 200px;
+			height: 100px;
+			margin: 0 auto;
+		}
+		ul {
+			padding-left: 10px;
+		}
+		li {
+			list-style: none;
+			line-height: 30px;
+		}
+		input {
+			padding-left: 5px;
+		}
+		button {
+			width: 50px;
+			height: 25px;
+		}
+		.wrap {
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<h4>选择您要模拟的浏览器useraAgent</h4>
+	<select id='useragentlist'>
+		<option value="0">默认</option>
+		<option value="1">微信</option>
+		<option value="2">ios系统</option>
+		<option value="3">安卓系统</option>
+		<option value="4">安卓系统微信</option>
+		<option value="5">ios系统微信</option>
+	</select>
+	<p>点击确定后,您的浏览器请求的useraAgent即为您要模拟的浏览器userAgent</p>
+</div>
+<script type="text/javascript" src="popup.js"></script>
+</body>
+</html>
